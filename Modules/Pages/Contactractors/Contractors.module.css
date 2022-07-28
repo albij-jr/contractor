@@ -1,0 +1,67 @@
+.loading_contractors{
+    @apply text-center font-semibold;
+}
+.spinenr {
+    @apply animate-spin;
+}
+.input_text{
+    @apply border-2 w-full border-gray-200 px-2 py-2 rounded-sm placeholder-slate-400
+    focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+      invalid:border-pink-500 invalid:text-pink-600
+      focus:invalid:border-pink-500 focus:invalid:ring-pink-500 shadow-sm focus:shadow-md transition-all;
+}
+.input_section{
+    @apply w-full md:w-3/4 m-auto bg-white shadow-lg my-12 px-10 md:px-24 py-12;
+}
+.page{
+    @apply pt-12;
+}
+.label_style{
+    @apply font-medium text-gray-600 capitalize text-lg pb-2 inline-block;
+}
+.input_group {
+    @apply mb-4;
+}
+.icon_button{
+    @apply p-2;
+}
+.icon_button{
+    @apply rounded-md px-3 py-2 text-white;
+}
+.delete_icon_button{
+    @apply bg-red-600;
+}
+.success_icon_button{
+    @apply bg-green-400;
+}
+.error_label{
+    @apply text-red-500 font-semibold text-xs;
+}
+.heading_text{
+    @apply text-center text-2xl uppercase tracking-widest font-bold;
+}
+.table_list{
+    @apply bg-white px-6 py-12 rounded-md shadow-lg;
+}
+.contractor_table{
+    @apply w-full;
+}
+.contractor_table thead,.contractor_table th{
+    @apply bg-gray-200 overflow-hidden;
+}
+.contractor_table tr th:first-child{
+    @apply rounded-l-md overflow-hidden pl-2;
+}
+.contractor_table tr th:last-child{
+    @apply rounded-r-md overflow-hidden pl-2;
+}
+.contractor_table tbody tr:nth-child(even){
+    @apply bg-gray-200;
+}
+.contractor_table tbody tr td:first-child{
+    @apply pl-4;
+}
+.contractor_table tbody tr td:last-child{
+    @apply pr-4;
+}
